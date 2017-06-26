@@ -1,20 +1,17 @@
 ///December%2015,%202015
+//1450137600
 
 var express = require("express"),
     url = require("url"),
-    app= express();
+    app= express(),
+    timeStamp = require("./timeStamper");
     
     
 app.use(function(req, res) {
-    res.send(timeStamper(req.url));
+    res.send(timeStamp(req.url));
 })
 
 
-function timeStamper(timeString) {
-    var result = "";
-    timeString = timeString.slice(1, timeString.length);
-    result = timeString;
-    return result;
-}
+
 
 app.listen(process.env.PORT);
