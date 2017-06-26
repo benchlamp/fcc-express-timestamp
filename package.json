@@ -1,0 +1,23 @@
+{
+  "name": "fcc-express-timestamp",
+  "version": "1.0.0",
+  "description": "freecodecamp timestamp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benchlamp/fcc-express-timestamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benchlamp/fcc-express-timestamp/issues"
+  },
+  "homepage": "https://github.com/benchlamp/fcc-express-timestamp#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0"
+  }
+}
